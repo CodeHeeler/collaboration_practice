@@ -1,15 +1,15 @@
-import my_functions/add.py
-import my_functions/subtract.py
-import my_functions/multiply.py
-import my_functions/divide.py
-import my_functions/remainder.py
-import my_functions/exponent.py
+from add import add
+from subtract import subtract
+from multiply import multiply
+from divide import divide
+from remainder import remainder
+from exponent import exponent
 
 
 def main():
     print("\n\nWelcome to My Math!\n")
-    a = input("Enter your first number: ")
-    b = input("Enter your second number: ")
+    a = int(input("Enter your first whole number: "))
+    b = int(input("Enter your second whole number: "))
     print("\n{} + {} = {}".format(a, b, add(a, b)))
     print("\n{} - {} = {}".format(a, b, subtract(a, b)))
     print("\n{} * {} = {}".format(a, b, multiply(a, b)))
