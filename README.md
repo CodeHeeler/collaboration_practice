@@ -5,11 +5,11 @@ First, be sure you're added as a collaborator or use pull requests.  For this wa
 1. Clone the GitHub repository for your team's project and set up your environment.
 
 2. Based on the feature you've chosen to work on, create an appropriately named branch and swap to it (for this example, Feature 42).
-  1. This can be done in one step:
+  * This can be done in one step:
   ```
   $ git checkout -b feature42
   ```
-  2. Or in two steps:
+  * Or in two steps:
   ```
   $ git branch feature42
   $ git checkout feature42
@@ -35,12 +35,12 @@ $ git status
 ```
 
 8. Go to each of those files and look through them for the word HEAD added along with some lines demarcating two sections, the top being your new material, the bottom being what is currently in master.
-  1. Choose which you would like to keep, or make edits to conserve both or consult your team, then delete the conflicting material as well as all auto-generated lines.
-  2. Now you may add your changes.
+  * Choose which you would like to keep, or make edits to conserve both or consult your team, then delete the conflicting material as well as all auto-generated lines.
+  * Now you may add your changes.
   ```
   $ git add
   ```
-  3. A commit message has been generated for you with info about the merge, so commit this way:
+  * A commit message has been generated for you with info about the merge, so commit this way:
   ```
   $ git commit
   ```
@@ -52,7 +52,7 @@ $ git status
 ```
 $ git branch -d feature42
 ```
-And then remove the remote for it if you were using one:
+  And then remove the remote for it if you were using one:  
 ```
 $ git push origin :feature42
 ```
