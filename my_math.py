@@ -5,7 +5,6 @@ from divide import divide
 from remainder import remainder
 from exponent import exponent
 
-
 def main():
     print("\n\nWelcome to My Math!\n")
     a = int(input("Enter your first whole number: "))
