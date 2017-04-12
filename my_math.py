@@ -6,6 +6,10 @@ from remainder import remainder
 from exponent import exponent
 
 
+def subtract(a, b):
+    return a - b
+
+
 def main():
     print("\n\nWelcome to My Math!\n")
     a = int(input("Enter your first whole number: "))
